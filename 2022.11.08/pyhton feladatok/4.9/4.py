@@ -1,28 +1,26 @@
 import turtle
 
 screen = turtle.Screen()
-turtle = turtle.Turtle()
+t = turtle.Turtle()
 
-screen.bgcolor("lightgreen")
-turtle.color("blue")
-# 360 / 20 = 18
-for i in range(20):
-    turtle.forward(100)
-    turtle.forward(-100)
-    turtle.left(18)
-    
-    
-turtle.penup()
-turtle.left(45)
-turtle.forward(147)
-turtle.left(140)
-turtle.pendown()
+t.speed(10)
 
-for i in range(1):
-    for j in range(4):
-        turtle.forward(200)
-        turtle.left(90)
-    
+for i in range(0,20):
+   t.forward(100)
+   t.forward(-100)
+   t.left(18)
+
+t.left(9)
+for i in range(0,5):
+   t.penup()
+   t.forward(140)
+   t.left(135)
+   t.pendown()
+   for i in range(0,4):
+      t.forward(200)
+      t.left(90)
+   t.penup()
+   t.right(135)
+   t.forward(-140)
+   t.left(18)
 screen.mainloop()
-
-
