@@ -9,7 +9,7 @@ teknos.color("blue")
 
 teknos.speed(20)
 
-for i in range(4):
+for i in range(5):
     teknos.forward(20)
     teknos.left(90)
     teknos.forward(20)
