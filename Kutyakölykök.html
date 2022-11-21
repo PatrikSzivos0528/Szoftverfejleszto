@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang = "hu">
+<head>
+    <title>Kutyakölykök</title>
+    <meta charset="utf=8">
+
+
+</head>
+<style>
+    html{
+     min-height: 60%;
+}
+    
+    table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th{
+  border: 3px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+  
+    body {
+        background-image: url('Rét.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        
+    }
+</style>
+<style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    /* Style the header */
+    header {
+
+      padding: 30px;
+      text-align: center;
+      font-size: 35px;
+      color: white;
+    }
+    
+    /* Create two columns/boxes that floats next to each other */
+    nav {
+      float: left;
+      width: 30%;
+      height: 300px; /* only for demonstration, should be removed */
+      padding: 20px;
+    }
+    
+    /* Style the list inside the menu */
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    article {
+      float: left;
+      padding: 20px;
+      width: 70%;
+      background-color: #f1f1f1;
+      height: 300px; /* only for demonstration, should be removed */
+    }
+    
+    /* Clear floats after the columns */
+    section::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Style the footer */
+    footer {
+      background-color: #777;
+      padding: 10px;
+      text-align: center;
+      color: white;
+    }
+    
+    /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+    @media (max-width: 600px) {
+      nav, article {
+        width: 100%;
+        height: auto;
+      }
+    }
+    </style>
+    <style>
+        a:link, a:visited {
+          color: black;
+          padding: 5px 5px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+        }
+        </style>
+     
+<body>
+    <header>
+    <h1 style="color:blue ;">Kutyakölykök élete</h1>
+    </header>
+    <button onclick="document.location='Yorkshire Terrier1.jpg'">Yorkshire terrier</button>
+
+    <h1></h1>
+<section>
+    <h2>Kutyák</h2>
+    <table style="width:80%"> 
+        <tr style= "border:3px solid black">
+            <th>Fajta</th>
+            <th>Méret</th>
+            <th>Szín</th>
+            <th>Kép</th>
+        </tr>
+        <tr style= "border:3px solid black">
+            <td>Husky</td>
+            <td>Kölyök</td>
+            <td>Fehér</td>
+            <td><button onclick="document.location='Husky1.jpg'">Husky</button></td>
+        </tr>
+        <tr style= "border:3px solid black">
+            <td>Agár</td>
+            <td>Kölyök</td>
+            <td>Barna</td>
+            <td><button onclick="document.location='Agár1.jpg'">Agár</button></td>
+        </tr>
+        <tr style= "border:3px solid black">
+            <td>Yorkshire Terrier</td>
+            <td>Kölyök</td>
+            <td>Barna</td>
+            <td><button onclick="document.location='Yorkshire Terrier.jpg'">Yorkshire_terrier</button></td>
+        </tr>
+        <tr style= "border:3px solid black">
+            <td>Bulldog</td>
+            <td>Kölyök</td>
+            <td>Barna</td>
+            <td><button onclick="document.location='Bulldog.jpg'">Bulldog</button></td>
+        </tr>
+        <tr style= "border:3px solid black">
+            <td>Tacskó</td>
+            <td>Kölyök</td>
+            <td>Fekete</td> 
+            <td><button onclick="document.location='Tacskó.jpg'">Tacskó</button></td>
+        </tr>
+    </table>
+    <nav>
+    <h2>Link a kutyákhoz:</h2>
+    
+        <ul style="font-size:20px" ><b>
+            <li><a href="https://hu.wikipedia.org/wiki/Yorkshire_terrier" target="_blank">Yorkshire Terrier</a></li>
+            <li><a href="https://hu.wikipedia.org/wiki/Szib%C3%A9riai_husky" target="_blank">Husky</a></li>
+            <li><a href="https://hu.wikipedia.org/wiki/Ag%C3%A1r" target="_blank">Agár</a></li>
+            <li><a href="https://hu.wikipedia.org/wiki/Angol_buldog" target="_blank">Bulldog</a></li>
+            <li><a href="https://hu.wikipedia.org/wiki/Tacsk%C3%B3" target="_blank">Tacskó</a></li>
+        </ul ></b>
+    </nav>
+    <h2>Jellemző a kölyök kutyákra</h2>
+        <h3>Kölyök korukban csak kölyök táppal szabad etetni őket!</h3>
+            <h3>Napi séta "kötelező!"</h3>
+            <h3>Rendszeres fürdetés!</h3>
+                <h3>Védőoltások beadatása kötelező!</h3>
+                    <h3> Szeretet igényük magas!</h3>
+                        <h3> Kiskorukban nagyon kell ügyelni az odafigyelésre!</h3>
+                        
+        
+</section>
+</body>
+</html>
